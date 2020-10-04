@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">custom dailog box UI</string>
+    <string name="positive_popup_text_default">You have successfully completed the challenge.</string>
+    <string name="positive_popup_title_default">Like a boss!</string>
+</resources>

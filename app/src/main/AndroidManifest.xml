@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.customdailogboxui">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".robocor_landing_activity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ProjectSymposium"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Robosoccer"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".PaperPresentationRegistration"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".CrossRoadsRegistration"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".RuggedRageRegistration"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".decodeRegistration"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".situationRegistration"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".arduinoclashRegistration"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
